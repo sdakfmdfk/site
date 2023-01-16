@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="glavnaya.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.3.0/dist/flickity.css">
+</head>
+<header>
+    <div class="menu">
+        <img src="https://www.spartansmep.com/wp-content/uploads/2021/03/pipeline.svg" style="height: 55px; width: 61px;">
+        <h6>coolsanitary</h6>
+        <a href="glavnaya.html"><button>Главная</button></a>
+        <a href="news.html"><button>Новости</button></a>
+        <a href="dostavka.html"><button>Доставка</button></a>
+        <a href="employees.html"><button>Сотрудники</button></a>
+        <a href="reviews.html"><button>Отзывы</button></a>
+        <a href="contacts.html"><button>Контакты</button></a>
+    </div>
+    <div class="menu_dva" style="background: #5271DF; width: 100%; height: 100px;">
+        <div class="d1">
+            <form>
+            <input type="text" placeholder="Поиск по товарам...">
+            <button type="submit">&#128269;</button>
+            </form>
+          </div>
+        <a href="sign_in.html"><img src="https://avatars.mds.yandex.net/get-images-cbir/1039661/UVQofqCXcB8E1JtHk3B3fg7249/ocr"></a>
+        <a href="cart.html"><img src="https://avatars.mds.yandex.net/get-images-cbir/4257416/-bWRUTlc4nhC9X451fqGAA7311/ocr"></a>
+    </div>
+</header>
+<body>
+    <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.js"></script>
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell"><img style="height: 500px; width: 100%" src="https://sumom.kz/upload/iblock/d85/dnzvlyd4egsnc9h34ams9f0l4a7qgz1v.jpg"></div>
+        <div class="gallery-cell"><img style="height: 500px; width: 100%" src="https://sumom.kz/upload/iblock/40e/arg6rkrycov1z0vgkqjyv5xaeb6kfa8s.jpg"></div>
+        <div class="gallery-cell"><img style="height: 500px; width: 100%" src="https://sumom.kz/upload/iblock/64a/ncg9cpls8ze7t9u18l4rbkeeon0hkahm.jpg"></div>
+        <div class="gallery-cell"><img style="height: 500px; width: 100%" src="https://sumom.kz/upload/iblock/ec9/ll1oesotza2qi9ut65palqgcjzw3uiq3.png"></div>
+        <div class="gallery-cell"><img style="height: 500px; width: 100%" src="https://sumom.kz/upload/iblock/a97/58ge4dmadp35n5t677j957gdys56j5a2.png"></div>
+    </div>
+    <ul class="tovari">
+        <h2>ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h2>
+        <li class="tovar_poln">
+            <a href="" class="tovar"></a>
+            <h4>Наименование товара</h4>
+            <div class="prices">
+            <p class="old_price">2222тг</p><a href="#" class="new_price">5555тг</a></div>
+            <a href="#"><button id="btn" onclick="this.classList.toggle('active')" class="cart_button"></button></a>
+        </li>
+        <li class="tovar_poln">
+            <a href="" class="tovar"></a>
+            <h4>Наименование товара</h4>
+            <div class="prices">
+            <p class="old_price">2222тг</p><a href="#" class="new_price">5555тг</a></div>
+            <a href="#"><button id="btn" onclick="this.classList.toggle('active')" class="cart_button"></button></a>
+        </li>
+        <li class="tovar_poln">
+            <a href="" class="tovar"></a>
+            <h4>Наименование товара</h4>
+            <div class="prices">
+            <p class="old_price">2222тг</p><a href="#" class="new_price">5555тг</a></div>
+            <a href="#"><button id="btn" onclick="this.classList.toggle('active')" class="cart_button"></button></a>
+        </li>
+    </ul>
+    <h2 class="our_employees">Наши Сотрудники</h2>
+    <ul class="employees">
+        <li class="employee">
+            <img src="https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <h4>Имя Фамилия</h4>
+            <p>То, почему они такие шикарные</p>
+        </li>
+        <li class="employee">
+            <img src="">
+            <h4>Имя Фамилия</h4>
+        </li>
+        <li class="employee">
+            <img src="">
+            <h4>Имя Фамилия</h4>
+        </li>
+        <li style="margin-right: -20px;" class="employee">
+            <img src="">
+            <h4>Имя Фамилия</h4>
+            <p>То, почему они такие шикарные</p>
+    </ul>
+    <div class="about_us">
+        <p>МЫ гарантируем вам лучшее качество и самые низкие цены во всей стране!!<br>
+            У нас работают специалисты, знающие своё дело, ежедневная деятельность которых заключается в том, 
+            чтобы вы смогли подобрать подходящий вам товар и получить его точно в оговоренный срок.<br>
+            Мы следим за ценами на рынке и стараемся предложить нашим клиентам лучшие условия покупки. 
+            У нас индивидуальный подход к скидкам, исходя из потребностей каждого клиента в количестве того или иного 
+            товара. Этими скидками легко воспользоваться, разместив свою заявку, рассмотрев которую наши менеджера 
+            предложат Вам индивидуальную скидку исходя из вашего заказа. Кроме того,мы берём на себя доставку в пределах города Астаны, 
+            вам остаётся только назначить адрес и время доставки заказа.</p>
+    </div>
+</body>
+<footer>
+    <div class="top">
+        <div class="logo">
+            <img src="https://www.spartansmep.com/wp-content/uploads/2021/03/pipeline.svg" style="height: 80px; width: 86px;">
+            <h6 style="font-size: 30px;">coolsanitary</h6>
+        </div>
+        <div class="links">
+            <div style="float:right;">
+                <a href="about_us.html">О нас</a><a href="dostavka.html">Доставка</a><a href="#">Политика конфиденциальности</a><br><br><br>
+                <a href="contacts.html">Контакты</a><br><br><br>
+                <a href="employees.html">Сотрудники</a><br><br><br>
+                <a href="news.html">Блог</a>
+            </div>
+        </div>
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png"></a>
+        <a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"></a>
+        <a href="https://web.telegram.org"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"></a>
+        <a href="https://web.whatsapp.com/"><img src="https://cdn-icons-png.flaticon.com/512/4494/4494494.png"></a>
+    </div>
+</footer>
